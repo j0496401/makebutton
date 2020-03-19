@@ -127,7 +127,7 @@ export default function InputSlider() {
           name="fontSize"
           inputProps={{
             step: 5,
-            min: 0,
+            min: 5,
             max: 50,
             type: 'number',
           }}
@@ -186,7 +186,7 @@ export default function InputSlider() {
             inputProps={{
               step: 5,
               min: 0,
-              max: 50,
+              max: 100,
               type: 'number',
             }}
           />
@@ -263,7 +263,7 @@ export default function InputSlider() {
             name="boxShadowOffsetY"
             inputProps={{
               step: 5,
-              min: 0,
+              min: -50,
               max: 50,
               type: 'number',
             }}
@@ -277,7 +277,7 @@ export default function InputSlider() {
             name="boxShadowOffsetX"
             inputProps={{
               step: 5,
-              min: 0,
+              min: -50,
               max: 50,
               type: 'number',
             }}
@@ -305,7 +305,7 @@ export default function InputSlider() {
             name="boxShadowSpreadRadius"
             inputProps={{
               step: 5,
-              min: 0,
+              min: -50,
               max: 50,
               type: 'number',
             }}
@@ -337,7 +337,7 @@ export default function InputSlider() {
             name="textShadowOffsetY"
             inputProps={{
               step: 5,
-              min: 0,
+              min: -50,
               max: 50,
               type: 'number',
             }}
@@ -351,7 +351,7 @@ export default function InputSlider() {
             name="textShadowOffsetX"
             inputProps={{
               step: 5,
-              min: 0,
+              min: -50,
               max: 50,
               type: 'number',
             }}
